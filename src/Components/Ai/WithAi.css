@@ -1,0 +1,91 @@
+.game {
+    text-align: center;
+    
+
+  }
+  .heading{
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .AiHeading{
+color:red;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+    grid-template-rows: repeat(3, 130px);
+    gap: 5px;
+    margin: 20px auto;
+   justify-content:center;
+   margin-top: 40px;
+    
+    
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow;
+   
+  }
+  
+  .cell:hover {
+    background-color: gold;
+  }
+  
+  .game-over {
+    margin-top: 40px;
+    font-weight:bold;
+    color: red;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .btnDiv{
+    justify-content:center
+  }
+  
+  .btnRestart {
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border: solid, white;
+    border-radius: 10px;    
+    background-color:green;
+    margin-top:40px;
+    color: white;
+    justify-content:center;
+  }
+  .btnBack {
+    padding: 21px 51px;
+    font-size: 24px;
+    cursor: pointer;
+    border: solid, white;
+    border-radius: 10px;    
+    background-color:green;
+    margin-top:40px;
+    margin-left:30px;
+    
+    color: white;
+    justify-content:center;
+  }
+
+ .btnBack:hover{
+   background-color: pink;
+   color: blue;
+ } 
+
+ .btnRestart:hover{
+   background-color: pink;
+   color: blue;
+ }
