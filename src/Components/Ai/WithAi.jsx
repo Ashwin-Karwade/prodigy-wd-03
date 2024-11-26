@@ -116,7 +116,7 @@ const WithAi = () => {
         </div>
       )}
       <button className='btnRestart font-semibold font-sans' onClick={resetGame}>Restart</button>
-       <NavLink to='/' className='btnBack font-semibold font-snas'>Back</NavLink>  
+       <NavLink to='/prodigy-wd-03/' className='btnBack font-semibold font-snas'>Back</NavLink>  
          
     
     </div>
