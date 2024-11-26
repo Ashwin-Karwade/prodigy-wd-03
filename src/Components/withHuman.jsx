@@ -128,7 +128,7 @@ const WithHuman = () => {
     </div> 
           <div className='flex justify-center sm:mt-14 mt-10 sm:gap-10 gap-11'>
           <button className='border-2 font-semibold font-sans sm:p-2 p-0 sm:w-36 sm:h-14 h-9 flex justify-center items-center w-20 rounded-xl sm:text-xl text-lg bg-green-600 text-white hover:bg-slate-500 hover:text-black' onClick={()=>{Reset()}}>Reset</button>
-         <NavLink to = '/withai'> <button className='border-2 sm:p-2  p-0 sm:w-40 sm:h-14 h-9 w-20 rounded-xl sm:text-[18px]  text-lg bg-green-600 text-white hover:bg-red-600 hover:text-blue-950 font-semibold font-sans'>With <span className='text-black'>Ai</span></button></NavLink>
+         <NavLink to = '/prodigy-wd-03/withai'> <button className='border-2 sm:p-2  p-0 sm:w-40 sm:h-14 h-9 w-20 rounded-xl sm:text-[18px]  text-lg bg-green-600 text-white hover:bg-red-600 hover:text-blue-950 font-semibold font-sans'>With <span className='text-black'>Ai</span></button></NavLink>
           </div>
     </div> 
   )
