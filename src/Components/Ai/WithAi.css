@@ -20,9 +20,7 @@ color:red;
     gap: 5px;
     margin: 20px auto;
    justify-content:center;
-   margin-top: 40px;
-    
-    
+   margin-top: 40px; 
   }
   
   .cell {
@@ -35,8 +33,14 @@ color:red;
     border-radius: 5px;
     cursor: pointer;
     background-color: yellow;
-   
   }
+
+
+@media only screen and (max-width 640px){
+  width:30%;
+  height:30%;
+}
+
   
   .cell:hover {
     background-color: gold;
@@ -80,6 +84,14 @@ color:red;
     justify-content:center;
   }
 
+  @media only screen and (max-width 640px){
+    .btnBack{
+      font-size:12px;
+      border:5px;
+      
+    }
+  }
+
  .btnBack:hover{
    background-color: pink;
    color: blue;
@@ -89,3 +101,5 @@ color:red;
    background-color: pink;
    color: blue;
  }
+
+
