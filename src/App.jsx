@@ -5,11 +5,11 @@ import WithAi from './Components/Ai/WithAi'
 function App() {
   const router = createBrowserRouter([
       {
-        path: '/prodigy-wd-03/',
+        path: '/prodigy_wd_03/',
         element: <WithHuman/>
       },
       {
-       path: '/prodigy-wd-03/withai',
+       path: '/prodigy_wd_03/withai',
        element: <WithAi />
       }
      
